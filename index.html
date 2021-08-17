@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" type="image/svg" href="img/olive-branch.svg">
+
+    <title>Out On A Limb</title>
+</head>
+<body>
+
+    <div>
+        <h1>Out On A Limb</h1>
+        <p>A daily “exercise” app for entrepreneurs. Instead of a physical workout, this gets users to step outside their comfort
+        zones through one activity per day. This helps build the risk-taking muscles entrepreneurs need and erodes their fear of
+        rejection.</p>
+
+        <button onclick="resetAll()" id="reset">Reset All?</button>
+        <button onclick="selectAll()" id="reset">Select All?</button>
+
+        <form>
+            <div>
+                <img src="img/olive-branch.svg" alt="branch" class="olive-branch-r" width="18%">
+                <input type="checkbox" id="day1" name="chk">
+                <label for="day1">Take a new way home from work</label>
+                
+            </div>
+
+            <div>
+                <input type="checkbox" id="day2" name="chk">
+                <label for="day2">Pay for the meal behind you if you're in a drive thru</label>
+                <img src="img/olive-branch.svg" alt="branch" class="olive-branch" width="18%">
+            </div>
+
+            <div>
+                <img src="img/olive-branch.svg" alt="branch" class="olive-branch-r" width="18%">
+                <input type="checkbox" id="day3" name="chk">
+                <label for="day3">Approach someone who intimidates you and compliment them.</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="day4" name="chk">
+                <label for="day4">Slow dance on a rooftop (or somewhere epic).</label>
+                <img src="img/olive-branch.svg" alt="branch" class="olive-branch" width="18%">
+            </div>
+
+            <div>
+                <img src="img/olive-branch.svg" alt="branch" class="olive-branch-r" width="18%">
+                <input type="checkbox" id="day5" name="chk">
+                <label for="day5">Drive around, crank your favorite song and have a dance off at stoplights to make
+                    strangers laugh.
+                </label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="day6" name="chk">
+                <label for="day6">Have a marshmellow eating contest with your best friend.</label>
+                <img src="img/olive-branch.svg" alt="branch" class="olive-branch" width="18%">
+            </div>
+
+            <div>
+                <img src="img/olive-branch.svg" alt="branch" class="olive-branch-r" width="18%">
+                <input type="checkbox" id="day7" name="chk">
+                <label for="day7">Go play Bingo. Get serious about it with the old ladies who play.</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="day8" name="chk">
+                <label for="day8">Go for lunch by yourself.</label>
+                <img src="img/olive-branch.svg" alt="branch" class="olive-branch" width="18%">
+            </div>
+
+            <div>
+                <img src="img/olive-branch.svg" alt="branch" class="olive-branch-r" width="18%">
+                <input type="checkbox" id="day9" name="chk">
+                <label for="day9">Send flowers to someone for no reason.</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="day10" name="chk">
+                <label for="day10">Call a parent to tell them how much you love them.</label>
+                <img src="img/olive-branch.svg" alt="branch" class="olive-branch" width="18%">
+            </div>
+
+            <div>
+                <img src="img/olive-branch.svg" alt="branch" class="olive-branch-r" width="18%">
+                <input type="checkbox" id="day11" name="chk">
+                <label for="day11">Go to a thrift store with a $30 budget, dress your partner/friend 
+                    and go for lunch in your new outfits.
+                </label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="day12" name="chk">
+                <label for="day12">Go for a night drive with a friend, at every intersection take turns
+                    deciding which way to go. GPS your way back home.
+                </label>
+                <img src="img/olive-branch.svg" alt="branch" class="olive-branch" width="18%">
+            </div>
+
+            <div>
+                <img src="img/olive-branch.svg" alt="branch" class="olive-branch-r" width="18%">
+                <input type="checkbox" id="day13" name="chk">
+                <label for="day13">Attend a service at a religious institution you're not part of.</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="day14" name="chk">
+                <label for="day14">Go to your favorite book store, and leave notes in your favorite books for 
+                    future readers.
+                </label>
+                <img src="img/olive-branch.svg" alt="branch" class="olive-branch" width="18%">
+            </div>
+
+            <div>
+                <img src="img/olive-branch.svg" alt="branch" class="olive-branch-r" width="18%">
+                <input type="checkbox" id="day15" name="chk">
+                <label for="day15">Take a class (online or in person) you've always wanted to take.</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="day16" name="chk">
+                <label for="day16">Raise money for charity.</label>
+                <img src="img/olive-branch.svg" alt="branch" class="olive-branch" width="18%">
+            </div>
+
+            <div>
+                <img src="img/olive-branch.svg" alt="branch" class="olive-branch-r" width="18%">
+                <input type="checkbox" id="day17" name="chk">
+                <label for="day17">Dress up for no good reason, or wear something you normally wouldn't.</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="day18" name="chk">
+                <label for="day18">Travel alone.</label>
+                <img src="img/olive-branch.svg" alt="branch" class="olive-branch" width="18%">
+            </div>
+
+            <div>
+                <img src="img/olive-branch.svg" alt="branch" class="olive-branch-r" width="18%">
+                <input type="checkbox" id="day19" name="chk">
+                <label for="day19">Go to a shelter and walk the dogs.</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="day20" name="chk">
+                <label for="day20">Strike up a conversation with a stranger.</label>
+                <img src="img/olive-branch.svg" alt="branch" class="olive-branch" width="18%">
+            </div>
+
+            <div>
+                <img src="img/olive-branch.svg" alt="branch" class="olive-branch-r" width="18%">
+                <input type="checkbox" id="day21" name="chk">
+                <label for="day21">When ordering a drink at a restaurant, tell the waiter to surprise you.</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="day22" name="chk">
+                <label for="dat22">Apply for jobs that intimate you.</label>
+                <img src="img/olive-branch.svg" alt="branch" class="olive-branch" width="18%">
+            </div>
+
+            <div>
+                <img src="img/olive-branch.svg" alt="branch" class="olive-branch-r" width="18%">
+                <input type="checkbox" id="day23" name="chk">
+                <label for="day24">Dress to the nines. Go to an open house, pretend to be in the market to purchase.</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="day24" name="chk">
+                <label for="check24">Go somewhere you shouldn't be.</label>
+                <img src="img/olive-branch.svg" alt="branch" class="olive-branch" width="18%">
+            </div>
+
+            <div>
+                <img src="img/olive-branch.svg" alt="branch" class="olive-branch-r" width="18%">
+                <input type="checkbox" name="chk" id="day25">
+                <label for="day25">Walk around the city at night and find a place to eat breakfast at dawn.</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="day26" name="chk">
+                <label for="day 26">Start a movie you've never seen before. Mute it and improvise the dialogue.</label>
+                <img src="img/olive-branch.svg" alt="branch" class="olive-branch" width="18%">
+            </div>
+
+            <div>
+                <img src="img/olive-branch.svg" alt="branch" class="olive-branch-r" width="18%">
+                <input type="checkbox" id="day27" name="chk">
+                <label for="day27">Write 5 thank you cards to your best friends and tell them why they mean so much to you. Send them off
+                    via snail mail.
+                </label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="day28" name="chk">
+                <label for="day28">Take a new fitness class you've always wanted to try. Laugh at yourself when you get stuck.</label>
+                <img src="img/olive-branch.svg" alt="branch" class="olive-branch" width="18%">
+            </div>
+
+            <div>
+                <img src="img/olive-branch.svg" alt="branch" class="olive-branch-r" width="18%">
+                <input type="checkbox" id="day29" name="chk">
+                <label for="day29">Ask for a raise.</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="day30" name="chk">
+                <label for="day30">Go experience a gun range.</label>
+                <img src="img/olive-branch.svg" alt="branch" class="olive-branch" width="18%">
+            </div>
+        </form>
+        
+    </div>
+
+    
+</body>
+<footer>
+    Graphics from <a href="https://en.wikipedia.org/wiki/File:Olive_branch.svg">Wikipedia</a>
+    Content from <a href="https://heykendra.com/100/">hekendra.com</a>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tota11y/0.1.6/tota11y.min.js"></script>
+<script src="js/scripts.js"></script>
+
+</html>
