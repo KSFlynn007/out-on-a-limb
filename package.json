@@ -1,0 +1,21 @@
+{
+  "name": "out-on-a-limb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KSFlynn007/out-on-a-limb.git"
+  },
+  "author": "Kelsey Flynn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KSFlynn007/out-on-a-limb/issues"
+  },
+  "homepage": "https://github.com/KSFlynn007/out-on-a-limb#readme",
+  "dependencies": {
+  }
+}
