@@ -1,4 +1,5 @@
 let form = document.getElementsByClassName('largeCheckbox');
+let count = 0;
 
 function resetAll(){
     for (let i = 0; i < form.length; i ++){
@@ -42,3 +43,31 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
+
+function selected()
+{
+    if(event.target.checked){
+        count += 1;
+        console.log(count);
+    }
+
+    if (count === form.length){
+        modal.style.display = 'block';
+    }
+}
+
+
+// for loop should work?
+
+// function complete()
+// {
+//     for(let i = 0; i < form.length; i++){
+//         form[i].addEventListener('change', function(e){
+//             if(form[i].checked){
+//                 modal.style.display = "block";
+//             }
+//         })
+//     }
+
+// }
+
