@@ -48,8 +48,10 @@ function selected()
 {
     if(event.target.checked){
         count += 1;
-        console.log(count);
+    } else if(event.target.checked == false){
+        count -= 1;
     }
+
 
     if (count === form.length){
         modal.style.display = 'block';
@@ -57,7 +59,7 @@ function selected()
 }
 
 
-// for loop should work?
+// for loop should also work?
 
 // function complete()
 // {
